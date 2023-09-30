@@ -20,6 +20,7 @@
     "@storybook/addon-measure": "7.0.2",
     "@storybook/addon-outline": "7.0.2",
     "@storybook/addon-viewport": "7.0.2",
+    "@storybook/jest": "^0.2.2",
     "@storybook/test-runner": "0.10.0",
     "@storybook/testing-library": "^0.2.1",
     "@storybook/vue3-vite": "7.0.2",
