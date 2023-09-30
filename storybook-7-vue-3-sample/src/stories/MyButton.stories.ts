@@ -19,6 +19,21 @@ const meta: Meta<typeof MyButton> = {
     variant: 'primary',
     size: 'medium',
   },
+  // ここにまとめて argTypes を定義
+  argTypes: {
+    variant: {
+      control: {
+        type: 'inline-radio',
+      },
+      options: ['primary', 'secondary'],
+    },
+    size: {
+      control: {
+        type: 'select',
+      },
+      options: ['small', 'medium', 'large'],
+    },
+  },
 };
 
 export const Default: Story = {};
