@@ -41,7 +41,7 @@ export const Error: Story = {
     const ageInput = canvas.getByLabelText("Age", { selector: "input" });
     const submitButton = canvas.getByRole("button", { name: "確定" });
 
-    await userEvent.type(nameInput, "");
+    await userEvent.clear(nameInput);
     await userEvent.clear(ageInput);
     await userEvent.type(ageInput, "17");
     await userEvent.click(submitButton);
