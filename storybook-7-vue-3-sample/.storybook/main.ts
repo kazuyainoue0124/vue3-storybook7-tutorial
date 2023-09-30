@@ -10,6 +10,7 @@ const config: StorybookConfig = {
     '@storybook/addon-backgrounds',
     '@storybook/addon-measure',
     '@storybook/addon-outline',
+    '@storybook/addon-docs',
   ],
 };
 

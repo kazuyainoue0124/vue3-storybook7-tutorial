@@ -15,6 +15,7 @@
     "@storybook/addon-actions": "7.0.2",
     "@storybook/addon-backgrounds": "7.0.2",
     "@storybook/addon-controls": "7.0.2",
+    "@storybook/addon-docs": "7.0.2",
     "@storybook/addon-measure": "7.0.2",
     "@storybook/addon-outline": "7.0.2",
     "@storybook/addon-viewport": "7.0.2",
