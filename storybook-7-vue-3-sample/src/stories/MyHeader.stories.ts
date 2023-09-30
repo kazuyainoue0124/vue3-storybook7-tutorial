@@ -13,6 +13,11 @@ const meta: Meta<typeof MyHeader> = {
     },
     template: "<MyHeader v-bind='args' />",
   }),
+  argTypes: {
+    onLogin: { action: 'onLogin' },
+    onLogout: { action: 'onLogout' },
+    onSignUp: { action: 'onSignUp' },
+  },
 };
 
 export const Login: Story = {
