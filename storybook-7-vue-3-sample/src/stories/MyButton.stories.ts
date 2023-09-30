@@ -6,25 +6,24 @@ type Story = StoryObj<typeof MyButton>;
 const meta: Meta<typeof MyButton> = {
   title: 'MyButton',
   component: MyButton,
-};
-
-// 「ボタン」
-export const Default: Story = {
-  render: () => ({
-    components: { MyButton },
-    template: "<MyButton label='ボタン' />",
-  }),
-};
-
-// 「ログイン」
-export const Login: Story = {
-  render: (args: any) => ({
+  render: (args) => ({
     components: { MyButton },
     setup() {
       return { args };
     },
     template: "<MyButton v-bind='args' />",
   }),
+};
+
+// 「ボタン」
+export const Default: Story = {
+  args: {
+    label: 'ボタン',
+  },
+};
+
+// 「ログイン」
+export const Login: Story = {
   args: {
     label: 'ログイン',
   },
@@ -32,13 +31,6 @@ export const Login: Story = {
 
 // 「会員登録」
 export const SignUp: Story = {
-  render: (args: any) => ({
-    components: { MyButton },
-    setup() {
-      return { args };
-    },
-    template: "<MyButton v-bind='args' />",
-  }),
   args: {
     label: '会員登録',
   },
