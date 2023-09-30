@@ -1668,6 +1668,33 @@
     lodash "^4.17.21"
     ts-dedent "^2.0.0"
 
+"@storybook/addon-measure@7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-measure/-/addon-measure-7.0.2.tgz#2c2ea7f09fd34e68728adba4c3250a0c9699351b"
+  integrity sha512-cf/d5MXpHAjyUiDIVfc8pLn79CPHgnryDmNNlSiP2zEFKcivrRWiu8Rmrad8pGqLkuAh+PXLKCGn9uiqDvg7QQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.2"
+    "@storybook/components" "7.0.2"
+    "@storybook/core-events" "7.0.2"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.2"
+    "@storybook/preview-api" "7.0.2"
+    "@storybook/types" "7.0.2"
+
+"@storybook/addon-outline@7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-outline/-/addon-outline-7.0.2.tgz#41bbf15b869369b00399fbe5bd91161b7432b7a5"
+  integrity sha512-thVISO4NM22xlETisBvAPvz2yFD3qLGOjgzBmj8l8r9Rv0IEdwdPrwm5j0WTv8OtbhC4A8lPpvMsn5FhY5mDXg==
+  dependencies:
+    "@storybook/client-logger" "7.0.2"
+    "@storybook/components" "7.0.2"
+    "@storybook/core-events" "7.0.2"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.2"
+    "@storybook/preview-api" "7.0.2"
+    "@storybook/types" "7.0.2"
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-viewport@7.0.2":
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.2.tgz#e3ee6a9fdae03f4fdccd76e7a9b394f13b12ed1f"
