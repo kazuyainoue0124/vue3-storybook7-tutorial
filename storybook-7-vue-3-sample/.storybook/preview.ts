@@ -36,6 +36,18 @@ export const parameters = {
     },
   ];
 
+  export const globalTypes = {
+    locale: {
+      name: 'Locale',
+      description: '多言語設定',
+      defaultValue: 'ja',
+      toolbar: {
+        icon: 'globe',
+        items: ['ja', 'en'],
+      },
+    },
+  };
+
 // app が Vue インスタンスにあたるので Vue I18n インスタンスを注入する
 // 同一の Vue インスタンスに対して setup 関数は複数回実行されるため、すでに注入済みかを確認する
 setup((app) => {
